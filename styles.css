@@ -1,0 +1,53 @@
+html {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: rgb(46, 46, 46);
+	color: white;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+main {
+	position: absolute;
+	text-align: center;
+	width: 1000px;
+	height: 800px;
+}
+
+#source {
+	position: relative;
+	right: -280px;
+	bottom: -700px;
+}
+
+a{
+	color: lightgreen;
+}
+
+#title {
+	font-size: 3rem;
+}
+
+text{
+	font-size: 0.6rem;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#tooltip{
+	color: black;
+	opacity: 0;
+	display: block;
+	position: absolute;
+	padding: 10px;
+	font: 12px Arial;
+	background: rgba(255, 255, 204, 0.9);
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+	border: 0px;
+	border-radius: 2px;
+	pointer-events: none;
+}
